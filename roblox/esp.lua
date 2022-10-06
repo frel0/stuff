@@ -69,6 +69,8 @@ local espLibrary = {
         chamsOutlineTransparency = 0
     },
 };
+
+_G.espenabled = espLibrary.options.enabled.Value
 espLibrary.__index = espLibrary;
 
 -- variables
