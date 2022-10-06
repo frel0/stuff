@@ -70,7 +70,7 @@ local espLibrary = {
     },
 };
 
-_G.espenabled = espLibrary.options.enabled.Value
+_G.espenabled = espLibrary.options.enabled
 espLibrary.__index = espLibrary;
 
 -- variables
